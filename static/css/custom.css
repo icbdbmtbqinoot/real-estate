@@ -1,3 +1,68 @@
-html {
-    --mdc-theme-primary: #c97b63;
+/* Header */
+
+.custom-header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.custom-header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+}
+
+.custom-header-logo:hover {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.row {
+    padding: 10px;
+    margin-right: unset;
+    margin-left: unset;
+}
+
+.header-nav {
+    padding-left: 3%;
+}
+
+/* Footer */
+
+.custom-footer {
+    padding: 1.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+
+/* index */
+
+.jumbotron {
+    background-size: cover;
+}
+
+.white-btn {
+    color: white!important;
+    border-color: white!important;
+}
+
+#opening-img {
+    vertical-align: middle;
+    max-width: 400px;
+    height: auto;
+}
+
+#opening-div {
+    color: #6c757d!important;
+    background-color: #efebe9;
+    height: 200px;
+    margin-top: 40px;
+    padding: 3%;
+}
+
+#opening-div p:last-child {
+    font-size: small;
 }
